@@ -109,15 +109,15 @@ public class ClassTest {
         int foundIndex = -1;  // -1 means not found
 
         while (low <= high) {
-            int mid = (low + high) / 2;  // find middle index
+            int mid = (low + high) / 2;  
 
             if (arrays[mid] ==BinaryIndex) {
-                foundIndex               = mid;
+                foundIndex  = mid;
                 break;
             } else if (arrays[mid] < foundIndex) {
-                low = mid + 1;  // search right half
+                low = mid + 1;  
             } else {
-                high = mid - 1;  // search left half
+                high = mid - 1; 
             }
         }
 
@@ -129,6 +129,7 @@ public class ClassTest {
     }
  
 }
+
 
 
 
